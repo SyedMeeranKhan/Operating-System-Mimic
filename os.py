@@ -7,15 +7,13 @@ class operating_system:
     at = 0
     bt = 0
     
-
+    
 def my_os():
     
     print("    __Main menu__\n\n    1. User Management\n    2. Service Management\n    3. Process Management\n    4. Back-up\n    5. Exit:<")
 
     choice = int(input("Enter your Choice[1-5]: "))
     print()
-    
-    
     
     if(choice == 4):  #Back-up
         
@@ -128,7 +126,6 @@ def my_os():
         user_managment()
         
         
-        
     elif(choice == 2): #Service Management
         
         def service_managment():
@@ -144,7 +141,6 @@ def my_os():
                 print(f"failed to open {open_app}. error: {e}")
         service_managment()
         
-    
     
     elif(choice == 3):  #Process Management
         
@@ -194,9 +190,6 @@ def my_os():
         print("Enter between 1 & 5")
 
             
-
-
-
 def bubble_sort(lst):  #for fcfs arival time sorting
     for i in range(len(lst)-1):
         for j in range(len(lst)-1):
@@ -230,7 +223,6 @@ def fcfs(processes):
 
     print("Average waiting time is: ",(avgwt/len(processes)))
     print("Everage turn around time is: ",(avgtat/len(processes)))             
-
 
 
 def sortArrivalTime(lst):   #for sjf arival time sorting
