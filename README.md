@@ -11,7 +11,7 @@ A Python-based simulation that mimics basic operating system functionalities lik
 
 ## Prerequisites
 
-- Python 3.x
+- Python 3.x 
 - Linux operating system
 
 
