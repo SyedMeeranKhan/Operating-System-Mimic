@@ -1,6 +1,6 @@
 # Operating System Mimic
 
-A Python-based simulation that mimics basic operating system functionalities like file management, service handling, and process scheduling. This project is designed for educational purposes and is Linux-friendly.
+A Python-based simulation that mimics basic operating system functionalities like file management, service handling, and process scheduling. This project is designed for educational purposes and is Linux-friendly
 
 ## Features
 
